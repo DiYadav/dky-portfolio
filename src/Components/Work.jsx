@@ -1,24 +1,25 @@
 import React from "react";
 import Dvchat from '../assets/Dvchat.jpg';
+import portfolio from '../assets/portfolio.png';
 // Sample project data
 const projects = [
   {
     id: 1,
     title: "Curd Operation",
     image: "https://via.placeholder.com/300x200", // Replace with your actual image path
-    github: "https://github.com/DiYadav/project1"
+    github: "https://github.com/DiYadav/Curd-Project.git"
   },
   {
     id: 2,
     title: "Dvchat Web App",
     image: Dvchat,
-    github: "https://github.com/your-username/project2"
+    github: "https://github.com/DiYadav/Dvchat.git"
   },
   {
     id: 3,
-    title: "React Dashboard",
-    image: "https://via.placeholder.com/300x200",
-    github: "https://github.com/your-username/project3"
+    title: "Portfolio",
+    image: portfolio,
+    github: "https://github.com/DiYadav/Portfolio.git"
   },
   // Add more projects as needed
 ];
@@ -49,6 +50,14 @@ function Work() {
             </div>
           </a>
         ))}
+      </div>
+      <div className=" flex justify-center mt-20  dark:text-white">
+        <a className=" hover:text-blue-700"
+          href="https://github.com/DiYadav"
+          target="_blank"
+        >
+          See More...🤖
+        </a>
       </div>
     </div>
   );
