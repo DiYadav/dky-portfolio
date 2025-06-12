@@ -49,9 +49,9 @@ function HomePage() {
                 const HelloWorld =&#123; <br />
                 "_id": "127.0.0.1",
                 <br /> "name": "Dinesh Yadav", <br/>"developer": true, <br />
-                "technologies":["js","react","node","JavaScript","Python","..."],{" "}
+                "technologies":["js","react","Html",CSS,"JavaScript","Python","..."],{" "}
                 <br />
-                "interests": ["Django","AI","DevOps","Aws","..."]<br/>&#125;
+                "interests": ["Django","AI","Aws","DevOps","..."]<br/>&#125;
               </p>
             </div>
           </section>
