@@ -1,12 +1,13 @@
 import React from "react";
 import Dvchat from '../assets/Dvchat.jpg';
 import portfolio from '../assets/portfolio.png';
+import curd from '../assets/curd.jpg';
 // Sample project data
 const projects = [
   {
     id: 1,
     title: "Curd Operation",
-    image: "https://via.placeholder.com/300x200", // Replace with your actual image path
+    image: curd,
     github: "https://github.com/DiYadav/Curd-Project.git"
   },
   {
@@ -21,7 +22,7 @@ const projects = [
     image: portfolio,
     github: "https://github.com/DiYadav/Portfolio.git"
   },
-  // Add more projects as needed
+  
 ];
 
 function Work() {
