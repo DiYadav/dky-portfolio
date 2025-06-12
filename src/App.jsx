@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar";
 
 function App() {
   return (
-    <div className="bg-white">
+    <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-500">
       <Router>
         <Navbar />
         <Routes>
