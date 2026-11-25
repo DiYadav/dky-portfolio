@@ -1,6 +1,6 @@
 
 # dky-portfolio
-my-portfolio
+my-portfolio:https://lucky-marshmallow-48a365.netlify.app/
 
 About
 DKY-Portfolio is a modern, responsive portfolio website built with React and styled using Tailwind CSS. It highlights my professional journey, skills, projects, and allows visitors to get in touch.
